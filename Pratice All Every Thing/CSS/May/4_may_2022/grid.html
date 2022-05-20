@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    /* display: flex; */
+    display: grid;
+    /* grid-template-columns: 200px 300px 400px 500px; */
+    /* grid-template-rows: 200px; */
+    /* grid-template-rows: 50px 50px; */
+    /* grid-template-columns: repeat(4,100px) ; */
+    /* justify-content: right; */
+        /* grid-gap:20px; */
+        /* grid-row-gap:20px; */
+        /* grid-column-gap: 30px; */
+        
+/* grid-template-areas: header header; */
+
+
+
+    border:3px solid blue;
+    height: 390px;
+    width:100%;
+    background-color: khaki;
+}
+.grid1{
+
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    /* grid-area: header; */
+   
+}
+.grid2{
+  
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+    
+   
+}
+.grid3{
+    position: relative;
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+   
+}
+.grid4{
+    
+    border:3px solid black;
+    height:70px;
+    width:100%;
+    background-color: red;
+   
+}
+    </style>
+</head>
+<body>
+    <h1>Grid div is related to container div. you can move relative to position</h1>
+        <div class="container">
+            <div class="grid1"><h1>Child-Div-1</h1></div>
+            <div class="grid2" ><h1>Child-Div-2</h1></div>
+            <div class="grid3"><h1>Child-Div-3</h1></div>
+            <div class="grid4"><h1>Child-Div-4</h1></div>
+        </div><br> <br>
+</body>
+</html>
